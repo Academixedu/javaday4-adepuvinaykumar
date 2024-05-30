@@ -9,6 +9,7 @@ public class RepeatName {
     Scanner sc=new Scanner(System.in);
     System.out.println("enter your name: ");
     String name=sc.nextLine();
+    sc.close();
     for(int i=1;i<=2;i++){
       System.out.println(name);
     }

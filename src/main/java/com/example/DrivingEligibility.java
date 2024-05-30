@@ -12,7 +12,7 @@ public class DrivingEligibility {
         System.out.println("are you above 18(yes/no): ");
         String age=sc.nextLine();
         if(lisence.equals("yes") && age.equals("yes")){
-            System.out.println("you are eligible to drive");
+            System.out.println(name+" you are eligible to drive");
         }
         else {
             System.out.println("you are not eligible to drive");
